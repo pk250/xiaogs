@@ -13,10 +13,10 @@ class ProxyspiderPipeline(object):
         try:
             res = requests.get(url="http://icanhazip.com/", timeout=8,
                                proxies={"http": "{0}:{1}".format(ip, port)})
-            if (ip[0].text == res.text):
+            if (ip == res.text.replace("\n","")):
                 print("代理IP:{0},{1}".format(ip, "有效"))
                 with open("proxy_ip.txt", 'a') as file:
-                    file.write("{0}:{1}".format(ip, port))
+                    file.write("{0}:{1}\r\n".format(ip, port))
             else:
                 print("代理IP:{0},{1}".format(ip, "无效"))
         except:

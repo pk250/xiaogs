@@ -13,19 +13,21 @@ class XicidailiSpider(scrapy.Spider):
     start_urls = ['https://www.xicidaili.com/nn/']
 
     def parse(self, response):
-        selector=Selector(response)
-        trs =selector.xpath('//table/tr')
+        trs=etree.HTML(response.body).xpath('//table/tr[position()>1]')
         for tr in trs:
-            res=tr.xpath('.//td').extract()
-            ip=res[1].text
-            port=res[1].text
-            item = ProxyspiderItem(
-                ip=ip,
-                port=port
-            )
-            yield item
+            try:
+                res=tr.xpath('./td[position()>1]')
+                ip=res[0].text
+                port=res[1].text
+                item = ProxyspiderItem(
+                    ip=ip,
+                    port=port
+                )
+                yield item
+            except Exception as e:
+                print(e)
         pass
     def start_requests(self):
         for i in range(100):
-            url="{0}{1}".format(self.start_urls[0],i)
+            url="{0}{1}".format(self.start_urls[0],i+1)
             yield scrapy.Request(url=url,callback=self.parse)
