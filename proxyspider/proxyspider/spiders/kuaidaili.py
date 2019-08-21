@@ -4,6 +4,7 @@ from lxml import etree
 
 import scrapy
 
+from proxyspider.items import ProxyspiderItem
 
 
 class KuaidailiSpider(scrapy.Spider):
@@ -17,14 +18,11 @@ class KuaidailiSpider(scrapy.Spider):
             ip=tr.xpath('.//td[@data-title="IP"]')
             port=tr.xpath('.//td[@data-title="PORT"]')
             print("IP;{0},PORT:{1}".format(ip[0].text,port[0].text))
-            try:
-                res=requests.get(url="http://icanhazip.com/",timeout=8,proxies={"http":"{0}:{1}".format(ip[0].text,port[0].text)})
-                if (ip[0].text==res.text):
-                    print("代理IP:{0},{1}".format(ip[0].text, "有效"))
-                else:
-                    print("代理IP:{0},{1}".format(ip[0].text, "无效"))
-            except:
-                print("代理IP:{0},{1}".format(ip[0].text, "无效"))
+            item=ProxyspiderItem(
+                ip=ip[0].text,
+                port=port[0].text
+            )
+            yield item
         pass
 
     def start_requests(self):
