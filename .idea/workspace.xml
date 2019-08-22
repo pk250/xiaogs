@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27fd933f-8905-4760-b5f8-6ddfe2f39fa7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxyspider/proxyspider/commands/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/proxyspider/proxyspider/commands/crawlall.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/xiaogs.iml" afterPath="$PROJECT_DIR$/.idea/xiaogs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxyspider/proxyspider/pipelines.py" afterPath="$PROJECT_DIR$/proxyspider/proxyspider/pipelines.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxyspider/proxyspider/settings.py" afterPath="$PROJECT_DIR$/proxyspider/proxyspider/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxyspider/proxyspider/spiders/xicidaili.py" afterPath="$PROJECT_DIR$/proxyspider/proxyspider/spiders/xicidaili.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/proxyspider/start.py" afterPath="$PROJECT_DIR$/proxyspider/start.py" />
-    </list>
+    <list default="true" id="27fd933f-8905-4760-b5f8-6ddfe2f39fa7" name="Default" comment="" />
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/xiaogs$xiaogs.coverage" NAME="xiaogs Coverage Results" MODIFIED="1566393330808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxyspider" />
+    <SUITE FILE_PATH="coverage/xiaogs$xiaogs.coverage" NAME="xiaogs Coverage Results" MODIFIED="1566394540035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/proxyspider" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -52,21 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/proxyspider/proxyspider/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proxy_ip.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/proxyspider/proxy_ip.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -95,7 +75,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proxyspider/proxyspider/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
+            <state relative-caret-position="1230">
               <caret line="82" column="25" lean-forward="false" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
               <folding />
             </state>
@@ -182,6 +162,13 @@
               <item name="proxyspider" type="462c0819:PsiDirectoryNode" />
               <item name="proxyspider" type="462c0819:PsiDirectoryNode" />
               <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xiaogs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xiaogs" type="462c0819:PsiDirectoryNode" />
+              <item name="proxyspider" type="462c0819:PsiDirectoryNode" />
+              <item name="proxyspider" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -580,6 +567,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="145" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -587,13 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="145" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -649,14 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxyspider/proxyspider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="82" column="25" lean-forward="false" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proxyspider/proxyspider/spiders/kuaidaili.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -664,6 +637,22 @@
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxyspider/proxyspider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="25" lean-forward="false" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -677,18 +666,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxyspider/proxyspider/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/proxyspider/proxy_ip.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+        <state relative-caret-position="-152">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxyspider/proxy_ip.txt">
+    <entry file="file://$PROJECT_DIR$/proxyspider/proxyspider/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="45" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="52" />
           <folding />
         </state>
       </provider>
